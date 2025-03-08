@@ -69,8 +69,6 @@ button:hover {
     padding: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
-/* NEWS CARD DESIGN */
 .news-item {
     background: #ffffff;
     border: 2px solid #7F7FD5;
@@ -80,14 +78,11 @@ button:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background 0.3s ease;
 }
-
 .news-item:hover {
     transform: scale(1.03);
     background: #f0f7ff;
     border-color: #91EAE4;
 }
-
-/* LINKS */
 .news-item a {
     text-decoration: none;
     color: #0078ff;
@@ -96,12 +91,9 @@ button:hover {
     margin-top: 8px;
     transition: color 0.3s ease;
 }
-
 .news-item a:hover {
     color: #0056b3;
 }
-
-/* ANIMATIONS */
 @keyframes fadeIn {
     from {
         opacity: 0;
