@@ -1,4 +1,4 @@
-const apiKey = '98c19acebce3489e9c5b1b8c15698dd8';  
+const apiKey = '';  // enter your api here inside ' '
 const newsContainer = document.getElementById('news-container');
 const searchInput = document.getElementById('search-input');
 async function fetchNews(query = '') {
