@@ -1,8 +1,6 @@
-const apiKey = '98c19acebce3489e9c5b1b8c15698dd8';  // Replace with your News API key
+const apiKey = '98c19acebce3489e9c5b1b8c15698dd8';  
 const newsContainer = document.getElementById('news-container');
 const searchInput = document.getElementById('search-input');
-
-// Fetch Default News
 async function fetchNews(query = '') {
     try {
         const url = query
@@ -32,9 +30,8 @@ async function fetchNews(query = '') {
 }
 function searchNews() {
     const searchContainer = document.getElementById("news-container");
-    searchContainer.style.display = "block"; // Ensure it becomes visible
+    searchContainer.style.display = "block"; 
     const query = searchInput.value.trim();
     fetchNews(query);
 }
-// Load Default News on Page Load
 fetchNews();
