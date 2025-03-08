@@ -5,11 +5,13 @@ Features
 2)Interactive user interface to browse and read news articles.
 3)Daily updates to provide the latest news.
 4)Simple and clean design for an optimal user experience.
+
 Technologies Used
 1)HTML
 2)CSS
 3)JavaScript
 4)News API
+
 Project Structure
 1)index.html: The main HTML file for the app.
 2)style.css: The CSS file for styling the app.
